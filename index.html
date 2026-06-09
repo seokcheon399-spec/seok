@@ -1,0 +1,637 @@
+
+<html>
+<head>
+<meta charset="utf-8">
+<title>사진 GPS 지도</title>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<style>
+#map { height: 100vh; width: 100%; }
+</style>
+</head>
+
+<body>
+
+<div id="map"></div>
+
+<script>
+var map = L.map('map').setView([38.254489, 128.41746999999998], 13);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19
+}).addTo(map);
+
+L.marker([38.254489, 128.41746999999998]).addTo(map)
+.bindPopup(`
+    <b>1073.jpg</b><br>
+    <a href="1073.jpg" target="_blank">
+        <img src="1073.jpg" width="200">
+    </a>
+`);
+
+L.marker([38.222732, 128.38332300000002]).addTo(map)
+.bindPopup(`
+    <b>1074.jpeg</b><br>
+    <a href="1074.jpeg" target="_blank">
+        <img src="1074.jpeg" width="200">
+    </a>
+`);
+
+L.marker([35.336947, 127.73057]).addTo(map)
+.bindPopup(`
+    <b>16.jpg</b><br>
+    <a href="16.jpg" target="_blank">
+        <img src="16.jpg" width="200">
+    </a>
+`);
+
+L.marker([0.0, 0.0]).addTo(map)
+.bindPopup(`
+    <b>20260502_123808.jpg</b><br>
+    <a href="20260502_123808.jpg" target="_blank">
+        <img src="20260502_123808.jpg" width="200">
+    </a>
+`);
+
+L.marker([37.57799444444445, 128.8538472222222]).addTo(map)
+.bindPopup(`
+    <b>84.jpg</b><br>
+    <a href="84.jpg" target="_blank">
+        <img src="84.jpg" width="200">
+    </a>
+`);
+
+L.marker([38.089774470004514, 128.4086537399945]).addTo(map)
+.bindPopup(`
+    <b>AMVN3404.JPG</b><br>
+    <a href="AMVN3404.JPG" target="_blank">
+        <img src="AMVN3404.JPG" width="200">
+    </a>
+`);
+
+L.marker([37.655055555555556, 128.73351944444443]).addTo(map)
+.bindPopup(`
+    <b>IMG_0921.JPG</b><br>
+    <a href="IMG_0921.JPG" target="_blank">
+        <img src="IMG_0921.JPG" width="200">
+    </a>
+`);
+
+L.marker([37.65504722222222, 128.73350555555555]).addTo(map)
+.bindPopup(`
+    <b>IMG_0922.JPG</b><br>
+    <a href="IMG_0922.JPG" target="_blank">
+        <img src="IMG_0922.JPG" width="200">
+    </a>
+`);
+
+L.marker([37.64693888888889, 128.733825]).addTo(map)
+.bindPopup(`
+    <b>IMG_0926.JPG</b><br>
+    <a href="IMG_0926.JPG" target="_blank">
+        <img src="IMG_0926.JPG" width="200">
+    </a>
+`);
+
+L.marker([37.64691111111111, 128.73385555555555]).addTo(map)
+.bindPopup(`
+    <b>IMG_0951.JPG</b><br>
+    <a href="IMG_0951.JPG" target="_blank">
+        <img src="IMG_0951.JPG" width="200">
+    </a>
+`);
+
+L.marker([37.64686111111111, 128.73403888888888]).addTo(map)
+.bindPopup(`
+    <b>IMG_0964.JPG</b><br>
+    <a href="IMG_0964.JPG" target="_blank">
+        <img src="IMG_0964.JPG" width="200">
+    </a>
+`);
+
+L.marker([37.647133333333336, 128.7390888888889]).addTo(map)
+.bindPopup(`
+    <b>IMG_0969.JPG</b><br>
+    <a href="IMG_0969.JPG" target="_blank">
+        <img src="IMG_0969.JPG" width="200">
+    </a>
+`);
+
+L.marker([37.645938888888885, 128.74420277777776]).addTo(map)
+.bindPopup(`
+    <b>IMG_0970.JPG</b><br>
+    <a href="IMG_0970.JPG" target="_blank">
+        <img src="IMG_0970.JPG" width="200">
+    </a>
+`);
+
+L.marker([37.62433055555556, 128.75743055555554]).addTo(map)
+.bindPopup(`
+    <b>IMG_0978.JPG</b><br>
+    <a href="IMG_0978.JPG" target="_blank">
+        <img src="IMG_0978.JPG" width="200">
+    </a>
+`);
+
+L.marker([37.68722222222222, 128.76042222222222]).addTo(map)
+.bindPopup(`
+    <b>IMG_1038.JPG</b><br>
+    <a href="IMG_1038.JPG" target="_blank">
+        <img src="IMG_1038.JPG" width="200">
+    </a>
+`);
+
+L.marker([37.68711388888889, 128.76038055555554]).addTo(map)
+.bindPopup(`
+    <b>IMG_1045.JPG</b><br>
+    <a href="IMG_1045.JPG" target="_blank">
+        <img src="IMG_1045.JPG" width="200">
+    </a>
+`);
+
+L.marker([37.67283888888888, 128.76496944444443]).addTo(map)
+.bindPopup(`
+    <b>IMG_1061.JPG</b><br>
+    <a href="IMG_1061.JPG" target="_blank">
+        <img src="IMG_1061.JPG" width="200">
+    </a>
+`);
+
+L.marker([37.672180555555556, 128.76209722222222]).addTo(map)
+.bindPopup(`
+    <b>IMG_1066.JPG</b><br>
+    <a href="IMG_1066.JPG" target="_blank">
+        <img src="IMG_1066.JPG" width="200">
+    </a>
+`);
+
+L.marker([37.616622222222226, 128.7719416666667]).addTo(map)
+.bindPopup(`
+    <b>IMG_1073.JPG</b><br>
+    <a href="IMG_1073.JPG" target="_blank">
+        <img src="IMG_1073.JPG" width="200">
+    </a>
+`);
+
+L.marker([38.25998888888889, 128.41377222222224]).addTo(map)
+.bindPopup(`
+    <b>IMG_1413.JPG</b><br>
+    <a href="IMG_1413.JPG" target="_blank">
+        <img src="IMG_1413.JPG" width="200">
+    </a>
+`);
+
+L.marker([38.24780555555556, 128.40928611111113]).addTo(map)
+.bindPopup(`
+    <b>IMG_1424.JPG</b><br>
+    <a href="IMG_1424.JPG" target="_blank">
+        <img src="IMG_1424.JPG" width="200">
+    </a>
+`);
+
+L.marker([38.244886111111114, 128.40568611111112]).addTo(map)
+.bindPopup(`
+    <b>IMG_1444.JPG</b><br>
+    <a href="IMG_1444.JPG" target="_blank">
+        <img src="IMG_1444.JPG" width="200">
+    </a>
+`);
+
+L.marker([38.23495833333333, 128.39607222222222]).addTo(map)
+.bindPopup(`
+    <b>IMG_1465.JPG</b><br>
+    <a href="IMG_1465.JPG" target="_blank">
+        <img src="IMG_1465.JPG" width="200">
+    </a>
+`);
+
+L.marker([37.59256388888889, 128.88540555555554]).addTo(map)
+.bindPopup(`
+    <b>IMG_1958.JPG</b><br>
+    <a href="IMG_1958.JPG" target="_blank">
+        <img src="IMG_1958.JPG" width="200">
+    </a>
+`);
+
+L.marker([37.58699444444445, 128.89771944444445]).addTo(map)
+.bindPopup(`
+    <b>IMG_1979.JPG</b><br>
+    <a href="IMG_1979.JPG" target="_blank">
+        <img src="IMG_1979.JPG" width="200">
+    </a>
+`);
+
+L.marker([37.586711111111114, 128.8978111111111]).addTo(map)
+.bindPopup(`
+    <b>IMG_2002.JPG</b><br>
+    <a href="IMG_2002.JPG" target="_blank">
+        <img src="IMG_2002.JPG" width="200">
+    </a>
+`);
+
+L.marker([37.552530555555556, 128.905975]).addTo(map)
+.bindPopup(`
+    <b>IMG_2035.JPG</b><br>
+    <a href="IMG_2035.JPG" target="_blank">
+        <img src="IMG_2035.JPG" width="200">
+    </a>
+`);
+
+L.marker([37.54826111111111, 128.91583333333335]).addTo(map)
+.bindPopup(`
+    <b>IMG_2048.JPG</b><br>
+    <a href="IMG_2048.JPG" target="_blank">
+        <img src="IMG_2048.JPG" width="200">
+    </a>
+`);
+
+L.marker([37.54618611111111, 128.9254611111111]).addTo(map)
+.bindPopup(`
+    <b>IMG_2063.JPG</b><br>
+    <a href="IMG_2063.JPG" target="_blank">
+        <img src="IMG_2063.JPG" width="200">
+    </a>
+`);
+
+L.marker([37.546188888888885, 128.9254611111111]).addTo(map)
+.bindPopup(`
+    <b>IMG_2074.JPG</b><br>
+    <a href="IMG_2074.JPG" target="_blank">
+        <img src="IMG_2074.JPG" width="200">
+    </a>
+`);
+
+L.marker([38.091513930020845, 128.40729385999632]).addTo(map)
+.bindPopup(`
+    <b>IMG_2439.JPG</b><br>
+    <a href="IMG_2439.JPG" target="_blank">
+        <img src="IMG_2439.JPG" width="200">
+    </a>
+`);
+
+L.marker([38.057849999999995, 128.41873055555556]).addTo(map)
+.bindPopup(`
+    <b>IMG_2465.JPG</b><br>
+    <a href="IMG_2465.JPG" target="_blank">
+        <img src="IMG_2465.JPG" width="200">
+    </a>
+`);
+
+L.marker([38.04945277777777, 128.42520277777777]).addTo(map)
+.bindPopup(`
+    <b>IMG_2466.JPG</b><br>
+    <a href="IMG_2466.JPG" target="_blank">
+        <img src="IMG_2466.JPG" width="200">
+    </a>
+`);
+
+L.marker([38.048741666666665, 128.42562777777778]).addTo(map)
+.bindPopup(`
+    <b>IMG_2521.JPG</b><br>
+    <a href="IMG_2521.JPG" target="_blank">
+        <img src="IMG_2521.JPG" width="200">
+    </a>
+`);
+
+L.marker([38.050288888888886, 128.42865]).addTo(map)
+.bindPopup(`
+    <b>IMG_2567.JPG</b><br>
+    <a href="IMG_2567.JPG" target="_blank">
+        <img src="IMG_2567.JPG" width="200">
+    </a>
+`);
+
+L.marker([38.052794444444444, 128.43345555555555]).addTo(map)
+.bindPopup(`
+    <b>IMG_2578.JPG</b><br>
+    <a href="IMG_2578.JPG" target="_blank">
+        <img src="IMG_2578.JPG" width="200">
+    </a>
+`);
+
+L.marker([38.04839444444444, 128.47563055555557]).addTo(map)
+.bindPopup(`
+    <b>IMG_2583.JPG</b><br>
+    <a href="IMG_2583.JPG" target="_blank">
+        <img src="IMG_2583.JPG" width="200">
+    </a>
+`);
+
+L.marker([37.997525, 128.5035861111111]).addTo(map)
+.bindPopup(`
+    <b>IMG_2594.JPG</b><br>
+    <a href="IMG_2594.JPG" target="_blank">
+        <img src="IMG_2594.JPG" width="200">
+    </a>
+`);
+
+L.marker([38.19616111111111, 128.43771388888888]).addTo(map)
+.bindPopup(`
+    <b>IMG_2720.JPG</b><br>
+    <a href="IMG_2720.JPG" target="_blank">
+        <img src="IMG_2720.JPG" width="200">
+    </a>
+`);
+
+L.marker([38.18519166666666, 128.42320277777776]).addTo(map)
+.bindPopup(`
+    <b>IMG_2748.JPG</b><br>
+    <a href="IMG_2748.JPG" target="_blank">
+        <img src="IMG_2748.JPG" width="200">
+    </a>
+`);
+
+L.marker([38.175638888888884, 128.4240888888889]).addTo(map)
+.bindPopup(`
+    <b>IMG_2767.JPG</b><br>
+    <a href="IMG_2767.JPG" target="_blank">
+        <img src="IMG_2767.JPG" width="200">
+    </a>
+`);
+
+L.marker([38.16271666666667, 128.43911666666668]).addTo(map)
+.bindPopup(`
+    <b>IMG_2958.JPG</b><br>
+    <a href="IMG_2958.JPG" target="_blank">
+        <img src="IMG_2958.JPG" width="200">
+    </a>
+`);
+
+L.marker([38.15796388888889, 128.43805]).addTo(map)
+.bindPopup(`
+    <b>IMG_2969.JPG</b><br>
+    <a href="IMG_2969.JPG" target="_blank">
+        <img src="IMG_2969.JPG" width="200">
+    </a>
+`);
+
+L.marker([38.15357222222222, 128.44053611111113]).addTo(map)
+.bindPopup(`
+    <b>IMG_2978.JPG</b><br>
+    <a href="IMG_2978.JPG" target="_blank">
+        <img src="IMG_2978.JPG" width="200">
+    </a>
+`);
+
+L.marker([38.17269722222222, 128.4941861111111]).addTo(map)
+.bindPopup(`
+    <b>IMG_3048.JPG</b><br>
+    <a href="IMG_3048.JPG" target="_blank">
+        <img src="IMG_3048.JPG" width="200">
+    </a>
+`);
+
+L.marker([38.097344444444445, 128.40593055555556]).addTo(map)
+.bindPopup(`
+    <b>IMG_3127.JPG</b><br>
+    <a href="IMG_3127.JPG" target="_blank">
+        <img src="IMG_3127.JPG" width="200">
+    </a>
+`);
+
+L.marker([38.11202222222222, 128.41023333333334]).addTo(map)
+.bindPopup(`
+    <b>IMG_3135.JPG</b><br>
+    <a href="IMG_3135.JPG" target="_blank">
+        <img src="IMG_3135.JPG" width="200">
+    </a>
+`);
+
+L.marker([38.11208055555556, 128.4102777777778]).addTo(map)
+.bindPopup(`
+    <b>IMG_3144.JPG</b><br>
+    <a href="IMG_3144.JPG" target="_blank">
+        <img src="IMG_3144.JPG" width="200">
+    </a>
+`);
+
+L.marker([38.109836111111115, 128.42550555555556]).addTo(map)
+.bindPopup(`
+    <b>IMG_3165.JPG</b><br>
+    <a href="IMG_3165.JPG" target="_blank">
+        <img src="IMG_3165.JPG" width="200">
+    </a>
+`);
+
+L.marker([38.12114722222222, 128.45745833333334]).addTo(map)
+.bindPopup(`
+    <b>IMG_3258.JPG</b><br>
+    <a href="IMG_3258.JPG" target="_blank">
+        <img src="IMG_3258.JPG" width="200">
+    </a>
+`);
+
+L.marker([38.11911666666667, 128.46530277777777]).addTo(map)
+.bindPopup(`
+    <b>IMG_3284.JPG</b><br>
+    <a href="IMG_3284.JPG" target="_blank">
+        <img src="IMG_3284.JPG" width="200">
+    </a>
+`);
+
+L.marker([38.13285833333333, 128.4646138888889]).addTo(map)
+.bindPopup(`
+    <b>IMG_3353.JPG</b><br>
+    <a href="IMG_3353.JPG" target="_blank">
+        <img src="IMG_3353.JPG" width="200">
+    </a>
+`);
+
+L.marker([38.1426, 128.47396944444444]).addTo(map)
+.bindPopup(`
+    <b>IMG_3354.JPG</b><br>
+    <a href="IMG_3354.JPG" target="_blank">
+        <img src="IMG_3354.JPG" width="200">
+    </a>
+`);
+
+L.marker([37.67283888888888, 128.765]).addTo(map)
+.bindPopup(`
+    <b>IMG_E0903.JPG</b><br>
+    <a href="IMG_E0903.JPG" target="_blank">
+        <img src="IMG_E0903.JPG" width="200">
+    </a>
+`);
+
+L.marker([37.62018611111111, 128.76289444444444]).addTo(map)
+.bindPopup(`
+    <b>IMG_E0981.JPG</b><br>
+    <a href="IMG_E0981.JPG" target="_blank">
+        <img src="IMG_E0981.JPG" width="200">
+    </a>
+`);
+
+L.marker([38.26519722222222, 128.35884166666665]).addTo(map)
+.bindPopup(`
+    <b>IMG_E1339.JPG</b><br>
+    <a href="IMG_E1339.JPG" target="_blank">
+        <img src="IMG_E1339.JPG" width="200">
+    </a>
+`);
+
+L.marker([38.26756944444444, 128.39886388888888]).addTo(map)
+.bindPopup(`
+    <b>IMG_E1375.JPG</b><br>
+    <a href="IMG_E1375.JPG" target="_blank">
+        <img src="IMG_E1375.JPG" width="200">
+    </a>
+`);
+
+L.marker([38.26049444444445, 128.41395555555556]).addTo(map)
+.bindPopup(`
+    <b>IMG_E1409.JPG</b><br>
+    <a href="IMG_E1409.JPG" target="_blank">
+        <img src="IMG_E1409.JPG" width="200">
+    </a>
+`);
+
+L.marker([37.6166, 128.77195555555556]).addTo(map)
+.bindPopup(`
+    <b>IMG_E1609.JPG</b><br>
+    <a href="IMG_E1609.JPG" target="_blank">
+        <img src="IMG_E1609.JPG" width="200">
+    </a>
+`);
+
+L.marker([37.62737777777778, 128.78852777777777]).addTo(map)
+.bindPopup(`
+    <b>IMG_E1613.JPG</b><br>
+    <a href="IMG_E1613.JPG" target="_blank">
+        <img src="IMG_E1613.JPG" width="200">
+    </a>
+`);
+
+L.marker([37.62781388888889, 128.78846666666666]).addTo(map)
+.bindPopup(`
+    <b>IMG_E1626.JPG</b><br>
+    <a href="IMG_E1626.JPG" target="_blank">
+        <img src="IMG_E1626.JPG" width="200">
+    </a>
+`);
+
+L.marker([37.62622777777778, 128.78958055555555]).addTo(map)
+.bindPopup(`
+    <b>IMG_E1632.JPG</b><br>
+    <a href="IMG_E1632.JPG" target="_blank">
+        <img src="IMG_E1632.JPG" width="200">
+    </a>
+`);
+
+L.marker([37.62061111111111, 128.8144388888889]).addTo(map)
+.bindPopup(`
+    <b>IMG_E1637.JPG</b><br>
+    <a href="IMG_E1637.JPG" target="_blank">
+        <img src="IMG_E1637.JPG" width="200">
+    </a>
+`);
+
+L.marker([37.608380555555556, 128.8234388888889]).addTo(map)
+.bindPopup(`
+    <b>IMG_E1649.JPG</b><br>
+    <a href="IMG_E1649.JPG" target="_blank">
+        <img src="IMG_E1649.JPG" width="200">
+    </a>
+`);
+
+L.marker([37.608355555555555, 128.8234388888889]).addTo(map)
+.bindPopup(`
+    <b>IMG_E1658.JPG</b><br>
+    <a href="IMG_E1658.JPG" target="_blank">
+        <img src="IMG_E1658.JPG" width="200">
+    </a>
+`);
+
+L.marker([37.595641666666666, 128.8335277777778]).addTo(map)
+.bindPopup(`
+    <b>IMG_E1671.JPG</b><br>
+    <a href="IMG_E1671.JPG" target="_blank">
+        <img src="IMG_E1671.JPG" width="200">
+    </a>
+`);
+
+L.marker([37.59217777777778, 128.83340555555557]).addTo(map)
+.bindPopup(`
+    <b>IMG_E1677.JPG</b><br>
+    <a href="IMG_E1677.JPG" target="_blank">
+        <img src="IMG_E1677.JPG" width="200">
+    </a>
+`);
+
+L.marker([37.542049999999996, 128.9647361111111]).addTo(map)
+.bindPopup(`
+    <b>IMG_E2089.JPG</b><br>
+    <a href="IMG_E2089.JPG" target="_blank">
+        <img src="IMG_E2089.JPG" width="200">
+    </a>
+`);
+
+L.marker([38.26524444444444, 128.35926388888888]).addTo(map)
+.bindPopup(`
+    <b>KakaoTalk_20260401_080620791.jpg</b><br>
+    <a href="KakaoTalk_20260401_080620791.jpg" target="_blank">
+        <img src="KakaoTalk_20260401_080620791.jpg" width="200">
+    </a>
+`);
+
+L.marker([37.606514180006485, 128.8310909299731]).addTo(map)
+.bindPopup(`
+    <b>resized_20260418_122906.jpg</b><br>
+    <a href="resized_20260418_122906.jpg" target="_blank">
+        <img src="resized_20260418_122906.jpg" width="200">
+    </a>
+`);
+
+L.marker([37.571403000000004, 128.902566]).addTo(map)
+.bindPopup(`
+    <b>resized_20260502_103114.jpg</b><br>
+    <a href="resized_20260502_103114.jpg" target="_blank">
+        <img src="resized_20260502_103114.jpg" width="200">
+    </a>
+`);
+
+L.marker([35.771464, 127.66933]).addTo(map)
+.bindPopup(`
+    <b>덕유산.jpg</b><br>
+    <a href="덕유산.jpg" target="_blank">
+        <img src="덕유산.jpg" width="200">
+    </a>
+`);
+
+L.marker([36.567602, 127.862213]).addTo(map)
+.bindPopup(`
+    <b>소백산 - 복사본 - 복사본.jpg</b><br>
+    <a href="소백산 - 복사본 - 복사본.jpg" target="_blank">
+        <img src="소백산 - 복사본 - 복사본.jpg" width="200">
+    </a>
+`);
+
+L.marker([36.567602, 127.862213]).addTo(map)
+.bindPopup(`
+    <b>소백산 - 복사본.jpg</b><br>
+    <a href="소백산 - 복사본.jpg" target="_blank">
+        <img src="소백산 - 복사본.jpg" width="200">
+    </a>
+`);
+
+L.marker([36.957368, 128.484807]).addTo(map)
+.bindPopup(`
+    <b>소백산.jpg</b><br>
+    <a href="소백산.jpg" target="_blank">
+        <img src="소백산.jpg" width="200">
+    </a>
+`);
+
+L.marker([37.09626, 128.916605]).addTo(map)
+.bindPopup(`
+    <b>태백.jpg</b><br>
+    <a href="태백.jpg" target="_blank">
+        <img src="태백.jpg" width="200">
+    </a>
+`);
+
+</script>
+
+</body>
+</html>
